@@ -15,13 +15,13 @@ CS 스터디 시작(2024.02.19~)<br>
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/MunsooKang"><img src="./readme_files/강문수.png" width="100px;" alt=""/><br /><sub><b>강문수</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/arim-kim"><img src="./readme_files/김아림.png" width="100px;" alt=""/><br /><sub><b>김아림</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/makie082"><img src="./readme_files/우미경.png" width="100px;" alt=""/><br /><sub><b>우미경</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/MunsooKang"><img src="./img/강문수.png" width="100px;" alt=""/><br /><sub><b>강문수</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/arim-kim"><img src="./img/김아림.png" width="100px;" alt=""/><br /><sub><b>김아림</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/makie082"><img src="./img/우미경.png" width="100px;" alt=""/><br /><sub><b>우미경</b></sub></a><br /></td>
      <tr/>
-      <td align="center"><a href="https://github.com/dogfish000"><img src="./readme_files/윤태우.png" width="100px;" alt=""/><br /><sub><b>윤태우</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/ttaho"><img src="./readme_files/윤태호.png" width="100px;" alt=""/><br /><sub><b>윤태호</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/RaelJung"><img src="./readme_files/정라엘.png" width="100px;" alt=""/><br /><sub><b>정라엘</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/dogfish000"><img src="./img/윤태우.png" width="100px;" alt=""/><br /><sub><b>윤태우</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/ttaho"><img src="./img/윤태호.png" width="100px;" alt=""/><br /><sub><b>윤태호</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/RaelJung"><img src="./img/정라엘.png" width="100px;" alt=""/><br /><sub><b>정라엘</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>

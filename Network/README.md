@@ -4,9 +4,9 @@
 - OSI 7계층(의미)
 - TCP: Handshake, 흐름제어, 혼잡제어
 - UDP
-
+- TCP와 UDP의 차이점
+- GET, POST 방식의 차이점
 - http(메서드, 상태코드 등)
-
 - http vs https
 - DNS
 - 게이트웨이

@@ -12,17 +12,11 @@ CS 스터디 시작(2024.02.19~)<br>
 - [자바](https://github.com/AucSuSu/CS-study/tree/main/Language/JAVA)
 - [스프링](https://github.com/AucSuSu/CS-study/tree/main/SPRING)<br>
 
-## Reference
-- [https://appleg1226.tistory.com/37](https://appleg1226.tistory.com/37)<br>
-- [https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
-- [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>
-- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
-- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
-
-## 일정 
+## 🌳 일정 
 |날짜|문수|태우|아림|라엘|우미|태호|
 |------|---|---|---|---|---|---|
 |(예시)2023.03.01|네트워크|운영체제|데이터베이스|디자인패턴|자바|자료구조|
+
 ## :family: 팀원 소개
 <table>
   <tbody>
@@ -37,3 +31,12 @@ CS 스터디 시작(2024.02.19~)<br>
     </tr>
   </tbody>
 </table>
+
+
+## Reference
+- [https://appleg1226.tistory.com/37](https://appleg1226.tistory.com/37)<br>
+- [https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
+- [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>
+- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
+- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
+

@@ -8,5 +8,14 @@
 - DeadLock
 - Race Condition(세마포어와 뮤텍스)
 - 메모리 단편화
-- 가상 메모리
+- 가상 메모리 
 - 요구 페이징
+- 동기/비동기 차이
+- 멀티스레드
+- 프로세스 동기화
+- 메모리 관리 전략
+  - Paging
+  - Segmentation
+- 캐시의 지역성
+  -Locality
+  - Caching line

@@ -32,7 +32,7 @@
 <br>
 
 # :ribbon: Semaphore(세마포어)
-![image](https://github.com/AucSuSu/CS-study/assets/75782242/c2e4a2c8-9567-4a82-95dd-094ca2d914b4)
+![image](https://github.com/AucSuSu/CS-study/assets/75782242/c2e4a2c8-9567-4a82-95dd-094ca2d914b4)<br>
 : 현재 공유 자원에 접근할 수 있는 스레드나 프로세스의 수를 나타내는 값을 두어 상호배제 달성
 : 공유자원에 접근할 수 있는 <b>최대 허용치만큼</b> 동시 사용자(스레드, 프로세스) 접근을 허용
 

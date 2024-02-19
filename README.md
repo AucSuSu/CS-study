@@ -8,6 +8,7 @@ CS 스터디 시작(2024.02.19~)<br>
 - [네트워크](https://github.com/AucSuSu/CS-study/tree/main/Network)
 - [데이터베이스](https://github.com/AucSuSu/CS-study/tree/main/Database)
 - [자료구조 & 알고리즘](https://github.com/AucSuSu/CS-study/tree/main/Algorithm)
+- [디자인 패턴](https://github.com/AucSuSu/CS-study/tree/main/DesignPattern)
 - [자바](https://github.com/AucSuSu/CS-study/tree/main/Language/JAVA)
 - [스프링](https://github.com/AucSuSu/CS-study/tree/main/SPRING)
 

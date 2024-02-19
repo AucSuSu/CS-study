@@ -6,7 +6,7 @@
 - Interrupt
 - CPU 스케줄링 / 스케줄러
 - DeadLock
-- Race Condition(세마포어와 뮤텍스)
+- [Race Condition(세마포어와 뮤텍스)](https://github.com/AucSuSu/CS-study/blob/main/OS/os_raceCondition.md)
 - 메모리 단편화
 - 가상 메모리 
 - 요구 페이징

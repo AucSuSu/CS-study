@@ -1,7 +1,9 @@
 # :gift_heart: CS Study
 
-CS 스터디 시작(2024.02.19~)<br>
 취뽀를 위한 CS study<br>
+CS 스터디 시작(2024.02.19~)<br>
+매주 월요일 20:30 <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/><br>
+
 
 ## :memo: Contents
 - [운영체제](https://github.com/AucSuSu/CS-study/tree/main/OS)

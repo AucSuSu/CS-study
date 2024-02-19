@@ -38,5 +38,4 @@ CS 스터디 시작(2024.02.19~)<br>
 - [https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
 - [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>
 - [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
-- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
 

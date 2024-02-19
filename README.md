@@ -1,7 +1,7 @@
 # CS Study
 
 CS 스터디 시작(2024.02.19~)<br>
-취뽀를 위한 CS study
+취뽀를 위한 CS study<br>
 
 ## :memo: Contents
 - [운영체제](https://github.com/AucSuSu/CS-study/tree/main/OS)
@@ -11,6 +11,8 @@ CS 스터디 시작(2024.02.19~)<br>
 - [디자인 패턴](https://github.com/AucSuSu/CS-study/tree/main/DesignPattern)
 - [자바](https://github.com/AucSuSu/CS-study/tree/main/Language/JAVA)
 - [스프링](https://github.com/AucSuSu/CS-study/tree/main/SPRING)
+
+  <br>관련 항목들은 [링크](https://appleg1226.tistory.com/37)를 참고하였다.<br>
 
 ## :family: 팀원 소개
 <table>

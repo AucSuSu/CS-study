@@ -1,4 +1,4 @@
-# CS Study
+# :gift_heart: CS Study
 
 CS 스터디 시작(2024.02.19~)<br>
 취뽀를 위한 CS study<br>
@@ -33,7 +33,7 @@ CS 스터디 시작(2024.02.19~)<br>
 </table>
 
 
-## Reference
+## :bulb: Reference
 - [https://appleg1226.tistory.com/37](https://appleg1226.tistory.com/37)<br>
 - [https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
 - [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>

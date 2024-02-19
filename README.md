@@ -19,7 +19,10 @@ CS 스터디 시작(2024.02.19~)<br>
 - [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
 - [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
 
-
+## 일정 
+|날짜|문수|태우|아림|라엘|우미|태호|
+|------|---|---|---|---|---|---|
+|(예시)2023.03.01|네트워크|운영체제|데이터베이스|디자인패턴|자바|자료구조|
 ## :family: 팀원 소개
 <table>
   <tbody>

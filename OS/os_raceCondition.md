@@ -5,6 +5,7 @@
 <br>
 <br>
 # :ribbon: Mutex(뮤텍스)
+: 한 스레드나 프로세스에 의해 소유될 수 있는 key를 기반으로 한 상호배제 기법
 : <b>key</b>에 해당하는 어떤 오브젝트가 있으며 이 오브젝트(=key)를 <b>소유한 스레드/프로세스만이 공유 자원에 접근 가능</b>
 <br>
 ## 과정
@@ -21,6 +22,7 @@
 <br>
 
 # :ribbon: Semaphore(세마포어)
+: 현재 공유 자원에 접근할 수 있는 스레드나 프로세스의 수를 나타내는 값을 두어 상호배제 달성
 : 공유자원에 접근할 수 있는 <b>최대 허용치만큼</b> 동시 사용자(스레드, 프로세스) 접근을 허용
 
 ## 과정
@@ -32,6 +34,12 @@
 6. 2번 프로세스가 공유자원을 다 사용하여 떠남 -> 허용치 1로 증가
 7. 대기 중인 4번 프로세스가 공유자원에 접근 -> 허용치 0으로 감소
 <br>
+
+# :confetti_ball: Mutex/Semaphore 차이점
+- Semaphore는 Mutex가 될 수 있지만, Mutex는 Semaphore가 될 수 없다.
+- Semaphore는 소유할 수 X, Mutex는 소유할 수 있고, 소유주가 그에 대한 책임을 가질 수 있다.
+- Semaphore는 동기화 대상이 여러 개일 때 사용, Mutex는 동기화 대상이 하나일 때 사용
+
 
 # :round_pushpin: References
 - [https://worthpreading.tistory.com/90](https://worthpreading.tistory.com/90)

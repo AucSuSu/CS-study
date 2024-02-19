@@ -10,16 +10,14 @@ CS 스터디 시작(2024.02.19~)<br>
 - [자료구조 & 알고리즘](https://github.com/AucSuSu/CS-study/tree/main/Algorithm)
 - [디자인 패턴](https://github.com/AucSuSu/CS-study/tree/main/DesignPattern)
 - [자바](https://github.com/AucSuSu/CS-study/tree/main/Language/JAVA)
-- [스프링](https://github.com/AucSuSu/CS-study/tree/main/SPRING)
-
-  <br>관련 항목들은 [링크](https://appleg1226.tistory.com/37)를 참고하였다.<br>
+- [스프링](https://github.com/AucSuSu/CS-study/tree/main/SPRING)<br>
 
 ## Reference
-[https://appleg1226.tistory.com/37](https://appleg1226.tistory.com/37)<br>
-[https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
-[https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>
-[https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
-[https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
+- [https://appleg1226.tistory.com/37](https://appleg1226.tistory.com/37)<br>
+- [https://github.com/WeareSoft/tech-interview](https://github.com/WeareSoft/tech-interview)<br>
+- [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)<br>
+- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
+- [https://github.com/Seogeurim/CS-study?tab=readme-ov-file](https://github.com/Seogeurim/CS-study?tab=readme-ov-file)<br>
 
 
 ## :family: 팀원 소개

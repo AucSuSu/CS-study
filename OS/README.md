@@ -16,6 +16,6 @@
 - 메모리 관리 전략
   - Paging
   - Segmentation
-- 캐시의 지역성
+- [캐시의 지역성](https://github.com/AucSuSu/CS-study/blob/main/OS/os_cache.md)
   -Locality
   - Caching line

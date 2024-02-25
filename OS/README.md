@@ -4,7 +4,7 @@
 - 스레드
 - Context switching
 - Interrupt
-- CPU 스케줄링 / 스케줄러
+- [CPU 스케줄링 / 스케줄러](https://github.com/AucSuSu/CS-study/blob/main/OS/os_cpuScheduling.md)
 - DeadLock
 - [Race Condition(세마포어와 뮤텍스)](https://github.com/AucSuSu/CS-study/blob/main/OS/os_raceCondition.md)
 - 메모리 단편화

@@ -4,10 +4,12 @@
 ### 내부 단편화(Internal Fragmentation)</b>
   - 메모리 할당 시, 프로세스가 필요로 하는 크기보다 더 큰 메모리가 할당. 즉, 프로세스에서 사용하는 **메모리 공간이 낭비**되는 상황
   - ex) 메모장 실행 ➡️ OS가 4KB 할당 ➡️ 실제로는 1KB 사용 ➡️ **내부 단편화 3KB 발생**
+    <br>
     ![image](https://github.com/AucSuSu/CS-study/assets/64372881/d77c55a5-70de-464e-abf5-ef4ca5af4175)
 
 ### 외부 단편화(External Fragmentation)</b>
   - 메모리 할당, 해제 반복하며 중간 중간 작은 메모리 발생. 즉, 총 **공간은 충분하지만 실제로는 할당 불가능**한 상태
+    <br>
     ![image](https://github.com/AucSuSu/CS-study/assets/64372881/28f602fe-3bc2-4b1a-a89f-cf48762bbb56)
 <br>
 

@@ -6,13 +6,13 @@
 - Context switching
 - Interrupt
 - [CPU 스케줄링 / 스케줄러](https://github.com/AucSuSu/CS-study/blob/main/OS/os_cpuScheduling.md)
-- DeadLock
+- [DeadLock](https://github.com/AucSuSu/CS-study/blob/main/OS/os_deadLock.md)
 - [Race Condition(세마포어와 뮤텍스)](https://github.com/AucSuSu/CS-study/blob/main/OS/os_raceCondition.md)
 - [메모리 단편화](https://github.com/AucSuSu/CS-study/blob/main/OS/os_memoryFragmentation.md)
 - [가상 메모리](https://github.com/AucSuSu/CS-study/blob/main/OS/os_virtualMemory.md)
 - 요구 페이징
 - 동기/비동기 차이
-- 멀티스레드
+- [멀티스레드](https://github.com/AucSuSu/CS-study/blob/main/OS/os_multiThreading.md)
 - 프로세스 동기화
 - [메모리 관리 전략](https://github.com/AucSuSu/CS-study/blob/main/OS/os_memoryFragmentation.md)
   - Paging

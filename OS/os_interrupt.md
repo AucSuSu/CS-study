@@ -6,7 +6,7 @@
 - 하드웨어 Interrupt, 소프트웨어 Interrupt로 나눈다.
 - Interrupt는 고유한 벡터 값을 가진다
 
-## 1. Hardware Interrupt
+## 1. 🤖 Hardware Interrupt
 
 - 일반적인 Interrupt를 말할 땐 Hardware Interrupt를 말함
 - Asynchronous interrupt (비동기적)
@@ -22,7 +22,7 @@
 - Mask 불가능
 - 정전, 하드웨어 고장 등 불가피한 이유
 
-## 2. Software Interrupt
+## 2. 💿 Software Interrupt
 
 - Synchronous interrupt (동기적) = trap
 - CPU 내부에서 발생
@@ -43,7 +43,7 @@
 - 프로세스 스케줄링에 맞춰 발생
 - 일정 시간 슬라이스가 경과하면 현재 실행 중인 프로세스를 중단하고 다음 프로세스를 실행
 
-## 3. Interrupt Handling
+## 3. 🔪 Interrupt Handling
 
 - ISR (Interrupt Service Routine)
 
@@ -60,3 +60,5 @@
   - 각 인터럽트 마다 ISR 존재함
   1. ISR 실행
   2. 실행이 끝나면 이전 실행 상태로 복원
+
+<br>

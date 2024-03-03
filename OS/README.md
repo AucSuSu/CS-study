@@ -3,7 +3,7 @@
 - [프로세스 vs 스레드](https://github.com/AucSuSu/CS-study/blob/main/OS/os_process_thread.md)
 - [프로세스 메모리 구조](https://github.com/AucSuSu/CS-study/blob/main/OS/os_process_thread.md)
 - [PCB](https://github.com/AucSuSu/CS-study/blob/main/OS/os_PCB.md)
-- Context switching
+- [Context switching](https://github.com/AucSuSu/CS-study/blob/main/OS/os_contextSwitching.md)
 - Interrupt
 - [CPU 스케줄링 / 스케줄러](https://github.com/AucSuSu/CS-study/blob/main/OS/os_cpuScheduling.md)
 - [DeadLock](https://github.com/AucSuSu/CS-study/blob/main/OS/os_deadLock.md)

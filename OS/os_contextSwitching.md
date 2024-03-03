@@ -14,9 +14,9 @@
   - 이 task를 어떤식으로 전환하냐는 다양한 전략이 존재
   ```
 
-#### :rocket: context switching 이 일어나는 상황 - Interrupt
+#### :rocket: context switching 이 일어나는 상황
 
-1. I/O request (입출력 요청할 때)
+1. I/O request (입출력 요청할 때) Interrupt
 2. time slice expired (CPU 사용시간이 만료 되었을 때)
 3. fork a child (자식 프로세스를 만들 때)
 4. wait for an interrupt (인터럽트 처리를 기다릴 때)

@@ -64,7 +64,7 @@
   - context switching이 일어나는 동안 CPU는 작업을 처리하지 못함
 - context switching이 잦아지면 오버헤드가 발생해서 효율이 떨어짐
 
-### :check: context switching overhead 해결 방안
+### :rocket: context switching overhead 해결 방안
 
 1. 프로그램 다중화 수준 낮추기 (빈도 감소)
 2. 스레드를 이용하기 (context switching 에서 부하 최소화)

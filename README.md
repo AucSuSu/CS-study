@@ -3,6 +3,7 @@
 취뽀를 위한 CS study<br>
 CS 스터디 시작(2024.02.19~)<br>
 매주 월요일 20:30 <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/><br>
+매주 토요일에 모르는 문제 issue 작성
 
 
 ## :memo: Contents

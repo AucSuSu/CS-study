@@ -1,6 +1,6 @@
 # 운영체제
 메모리 관리와 스레드 관리 쪽 질문 비율이 높다
-- [운영체제] (https://github.com/AucSuSu/CS-study/blob/main/OS/os_operatingSystem.md)
+- [운영체제](https://github.com/AucSuSu/CS-study/blob/main/OS/os_operatingSystem.md)
 - [프로세스 vs 스레드](https://github.com/AucSuSu/CS-study/blob/main/OS/os_process_thread.md)
 - [프로세스 메모리 구조](https://github.com/AucSuSu/CS-study/blob/main/OS/os_process_thread.md)
 - [PCB](https://github.com/AucSuSu/CS-study/blob/main/OS/os_PCB.md)

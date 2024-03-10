@@ -184,3 +184,17 @@ NoSQL이라고 해서 꼭 **스키마가 없는 것은 아님**
 - 정확한 데이터의 구조를 알 수 없거나 변경, 확장될 가능성이 있는 경우
 - 읽기는 자주 해도 데이터 변경은 자주 없는 경우
 - 막대한 양의 데이터를 다뤄야 해서 데이터베이스를 수평으로 확장해야 하는 경우
+
+<br/>
+
+> ### 참고 자료
+
+https://woo0doo.tistory.com/19
+
+https://www.whatap.io/ko/blog/173/
+
+https://hstory0208.tistory.com/entry/RDBMS%EC%99%80-NoSQL%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EB%B0%8F-%EA%B0%9C%EB%85%90-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC
+
+https://hstory0208.tistory.com/20
+
+https://velog.io/@dirn0568/%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4RDB%EB%9E%80

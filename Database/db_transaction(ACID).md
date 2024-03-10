@@ -21,6 +21,7 @@
 1. 하나의 트랜잭션에 속한 작업 중 단 하나라도 실패하면 Rollbak이라 한다.
 2. Rollback이 발생하면 모든 데이터를 해당 트랜잭션이 시작되기 이전의 상태로 되돌린다.
 3. 즉, 마지막 Commit을 완료한 시점으로 복구한다.
+   
 ![rollback](https://github.com/AucSuSu/CS-study/assets/139415941/33c582aa-f9c2-4883-9f43-859634f6c032)
 
 <br>

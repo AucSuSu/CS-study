@@ -3,7 +3,7 @@
 
 - 인덱스(내부 구현, 장단점)
 - 정규화
-- 트랜잭션(ACID)
+- [트랜잭션(ACID)](https://github.com/AucSuSu/CS-study/blob/main/Database/db_transaction(ACID).md)
 - 트랜잭션 격리수준(Read Uncommitted ~ Serializable)
 - 테이블 설계(쿼리, 다대다 관계 등)
 

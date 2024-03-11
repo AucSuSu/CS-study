@@ -5,7 +5,7 @@
 - [정규화](https://github.com/AucSuSu/CS-study/blob/main/Database/db_%20Normalization(%EC%A0%95%EA%B7%9C%ED%99%94).md)
 - [트랜잭션(ACID)](https://github.com/AucSuSu/CS-study/blob/main/Database/db_transaction(ACID).md)
 - 트랜잭션 격리수준(Read Uncommitted ~ Serializable)
-- 테이블 설계(쿼리, 다대다 관계 등)
+- [테이블 설계(쿼리, 다대다 관계 등)](https://github.com/AucSuSu/CS-study/blob/main/Database/db_table_architecture.md)
 
 - [RDBMS vs NoSQL](https://github.com/AucSuSu/CS-study/blob/main/Database/db_RDBMS%20%26%20NoSQL.md)
 

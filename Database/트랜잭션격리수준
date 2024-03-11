@@ -1,0 +1,7 @@
+## 트랜잭션 격리 수준
+
+트랜잭션 격리 수준(Transaction Isolation Level)이란?
+- 데이터베이스에서 여러 트랜잭션이 동시에 실행될 때, 한 트랜잭션이 다른 트랜잭션에서 처리 중인 데이터에 접근하거나 영향을 주는 것을 어느정도 허용할지 결정하는 설정!
+
+예시)
+[](https://miro.medium.com/v2/resize:fit:720/format:webp/1*m9iB8yN12NiUUIJMdiMRqA.png)

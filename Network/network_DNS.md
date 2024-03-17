@@ -35,7 +35,7 @@
 >
 > - 보통 랜선으로 연결된 컴퓨터의 해당 통신사 서버로 연결됨 !
 
-![Alt text](image.png)
+![Alt text](assets/DNS_server.png)
 
 ### (2) Root DNS 서버 (.)
 

@@ -35,10 +35,8 @@
 >
 > - 보통 랜선으로 연결된 컴퓨터의 해당 통신사 서버로 연결됨 !
 
-![Alt text](assets/DNS_server.png)
-
 ### (2) Root DNS 서버 (.)
-
+![Alt text](assets/DNS_server.png)
 > - 최상위 DNS서버
 > - Local DNS 서버로 부터 요청을 받음
 > - Root DNS Server의 목록에도 해당 Domain Name의 IP가 없을수 있음
@@ -77,7 +75,7 @@
 ### 6️⃣,7️⃣ Local DNS <-> Authoritative DNS Server
 
 - 6️⃣ :computer:(Local DNS 서버) : byeoljali.com의 ip주소가 뭐지?
-- 7️⃣ 👀 TLD DNS server : 오 나 아는거다. arim.com 도메인의 IP 주소는 x.x.xxx야 ~
+- 7️⃣ 👀 TLD DNS server : 오 나 아는거다. byeoljali.com 도메인의 IP 주소는 x.x.xxx야 ~
 
 ## 5. :check: DNS cache
 

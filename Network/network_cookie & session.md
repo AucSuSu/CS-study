@@ -109,8 +109,4 @@ HTTP는 상태를 따로 저장하지 않는다. 즉, 연결이 끊어지는 순
 
 <br/>
 
-## 참고 자료
 
-https://code-lab1.tistory.com/298
-
-https://code-lab1.tistory.com/196

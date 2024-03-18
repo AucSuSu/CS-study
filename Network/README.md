@@ -8,7 +8,7 @@
 - TCP와 UDP의 차이점
 - [GET, POST 방식의 차이점](https://github.com/AucSuSu/CS-study/blob/main/Network/network_get&post.md)
 - http(메서드, 상태코드 등)
-- http vs https
+- [http vs https](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)
 - [DNS](https://github.com/AucSuSu/CS-study/blob/main/Network/network_DNS.md)
 - 게이트웨이
 - 프록시

@@ -12,7 +12,7 @@
 - [DNS](https://github.com/AucSuSu/CS-study/blob/main/Network/network_DNS.md)
 - 게이트웨이
 - 프록시
-- CORS
+- [CORS](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_cors.md)
 - [세션, 쿠키](https://github.com/AucSuSu/CS-study/blob/main/Network/network_cookie%20%26%20session.md)
 - JWT(Json Web Token)
 - RESTful API란?

@@ -10,7 +10,7 @@
 - [http(메서드, 상태코드 등)](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)
 - [http vs https](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)
 - [DNS](https://github.com/AucSuSu/CS-study/blob/main/Network/network_DNS.md)
-- 게이트웨이
+- [게이트웨이](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_gateway.md)
 - 프록시
 - [CORS](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_cors.md)
 - [세션, 쿠키](https://github.com/AucSuSu/CS-study/blob/main/Network/network_cookie%20%26%20session.md)

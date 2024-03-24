@@ -5,7 +5,7 @@
 - OSI 7계층(의미)
 - TCP: [Handshake](https://github.com/AucSuSu/CS-study/blob/main/Network/network_tcp_3wayhandshaking.md), 흐름제어, 혼잡제어
 - UDP
-- TCP와 UDP의 차이점
+- [TCP와 UDP의 차이점](https://github.com/AucSuSu/CS-study/blob/main/Network/network_TCP%26UDP.md)
 - [GET, POST 방식의 차이점](https://github.com/AucSuSu/CS-study/blob/main/Network/network_get&post.md)
 - [http(메서드, 상태코드 등)](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)
 - [http vs https](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)

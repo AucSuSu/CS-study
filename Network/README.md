@@ -15,4 +15,4 @@
 - [CORS](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_cors.md)
 - [세션, 쿠키](https://github.com/AucSuSu/CS-study/blob/main/Network/network_cookie%20%26%20session.md)
 - [JWT(Json Web Token)](https://github.com/AucSuSu/CS-study/blob/main/Network/network_JWT.md)
-- RESTful API란?
+- [RESTful API란?](https://github.com/AucSuSu/CS-study/blob/main/Network/network_restapi.md)

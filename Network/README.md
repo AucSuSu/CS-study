@@ -11,7 +11,7 @@
 - [http vs https](https://github.com/AucSuSu/CS-study/blob/main/Network/network_http_https.md)
 - [DNS](https://github.com/AucSuSu/CS-study/blob/main/Network/network_DNS.md)
 - [게이트웨이](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_gateway.md)
-- 프록시
+- [프록시](https://github.com/AucSuSu/CS-study/blob/main/Network/network_proxy.md)
 - [CORS](https://github.com/AucSuSu/CS-study/blob/main/Network/netword_cors.md)
 - [세션, 쿠키](https://github.com/AucSuSu/CS-study/blob/main/Network/network_cookie%20%26%20session.md)
 - [JWT(Json Web Token)](https://github.com/AucSuSu/CS-study/blob/main/Network/network_JWT.md)

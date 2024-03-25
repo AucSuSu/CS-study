@@ -2,7 +2,7 @@
 백엔드 면접의 꽃. 실무와 밀접한 관계가 있어서 중요하다
 
 - [네트워크 기초 개념](https://github.com/AucSuSu/CS-study/blob/main/Network/network_basic.md)
-- OSI 7계층(의미)
+- [OSI 7계층(의미)](https://github.com/AucSuSu/CS-study/blob/main/Network/network_osi.md)
 - TCP: [Handshake](https://github.com/AucSuSu/CS-study/blob/main/Network/network_tcp_3wayhandshaking.md), 흐름제어, 혼잡제어
 - UDP
 - [TCP와 UDP의 차이점](https://github.com/AucSuSu/CS-study/blob/main/Network/network_TCP%26UDP.md)

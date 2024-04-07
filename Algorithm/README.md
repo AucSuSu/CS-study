@@ -23,7 +23,7 @@
 - Stack
 - Queue
 - Heap
-- Tree(B Tree, Trie)
+- [Tree(B Tree, Trie)](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_tree.md)
 - Hash(Hash collision 해결법)
 
  

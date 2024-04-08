@@ -20,7 +20,7 @@
 - Array
 - ArrayList
 - LinkedList
-- Stack
+- [Stack](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_stack.md)
 - Queue
 - Heap
 - [Tree(B Tree, Trie)](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_tree.md)

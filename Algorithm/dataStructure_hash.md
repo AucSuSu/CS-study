@@ -33,9 +33,9 @@
 - 저장공간이 많이 필요
 - 여러 키에 해당하는 주소(인덱스)가 동일한 경우 충돌을 해결하기 위한 별도 자료구조가 필요
   - **Chaining 기법**:저장소(bucket)에서 충돌이 나면 새로운 값과 기존 값을 연결 리스트로 연결
-  <img width="664" alt="image" src="https://github.com/AucSuSu/CS-study/assets/75782242/2d9079de-f61e-4aeb-a76c-a5eceb8a71d9">
+    <img width="664" alt="image" src="https://github.com/AucSuSu/CS-study/assets/75782242/2d9079de-f61e-4aeb-a76c-a5eceb8a71d9">
   - **개방주소기법**: 비어있는 해시 값을 찾아 저장하는 기법
-  <img width="391" alt="image" src="https://github.com/AucSuSu/CS-study/assets/75782242/915a565c-56bc-4793-902a-c1a0f7a11caa">
+    <img width="391" alt="image" src="https://github.com/AucSuSu/CS-study/assets/75782242/915a565c-56bc-4793-902a-c1a0f7a11caa">
 
 
 ### 용도

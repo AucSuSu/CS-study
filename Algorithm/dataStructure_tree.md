@@ -144,6 +144,7 @@ LL-회전, RR-회전, LR-회전, RL-회전연산이 사용된다.
 ![](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0a075c48-12ec-4079-a3d5-4b35c67dffef%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-24_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.13.41.png&blockId=e8147d78-19f6-435a-98e0-3478ffa787c9)
 
 ![](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F403af98d-adcc-402e-b91a-3288c87dbc76%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-24_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.13.50.png&blockId=38cbcda6-0fd3-4fe1-bed1-a65904cf8723)
+![](https://oopy.lazyrockets.com/api/v2/notion/image?src=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fce32da22-e0d3-42e4-8656-acf3926022fe%2F%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-24_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_3.14.01.png&blockId=fd63df1b-0f2e-46b9-9159-1ea5b4d6de1f)
 
 > #### Red-Black 트리
 

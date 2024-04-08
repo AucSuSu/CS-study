@@ -34,6 +34,7 @@ dynamicArray.add(2);
 -   [장점] : 크기 조정 가능
 -   [단점] : 크기 조정을 위해 배열을 재할당하고 요소를 복사하는 작업이 필요하기 때문에 메모리 관리에 추가적인 오버헤드가 발생
 
+
 ### 정적 배열 특징
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkBcPP%2FbtqUZumg5KK%2FLUdautoyWuykvke1UxtZ50%2Fimg.jpg)
@@ -76,8 +77,17 @@ dynamicArray.add(2);
 
 ## 3. 궁금증
 
--   :first: 다른 구조의 기록 밀도는 어떻게 되는가
+-   ❓ 다른 구조의 기록 밀도는 어떻게 되는가
 
 > -   Q. linkedList의 기록 밀도는 1보다 작아?
 > -   A. 기록 밀도는 "단위 면적 또는 체적당 저장된 비트의 수" 이다. 링크드 리스트의 각 노드가 다른 노드를 가리키는 포인터를 포함하기 때문에, 메모리에서 요소가 연속적으로 저장되지 않음 =>
 >     **단순히 "1보다 작다"고 표현하기 어렵다.**
+
+
+-   ❓ ArrayList의 초기 배열 크기
+
+> -   Q. ArrayList의 초기 배열 크기
+> -   A. ArrayList 를 기본 생성자로 생성하면 static 변수에 미리 초기화된 빈 배열이 할당되지만, 값이 한 개라도 추가되면 default size 인 10 크기로 배열을 초기화
+[참고 블로그](https://chobo-developer2.tistory.com/6)
+
+

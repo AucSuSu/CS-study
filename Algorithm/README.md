@@ -22,7 +22,7 @@
 - LinkedList
 - [Stack](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_stack.md)
 - Queue
-- Heap
+- [Heap](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_heap.md)
 - [Tree(B Tree, Trie)](https://github.com/AucSuSu/CS-study/blob/main/Algorithm/dataStructure_tree.md)
 - Hash(Hash collision 해결법)
 

@@ -2,7 +2,7 @@
 이제까지 면접에서 그래도 꽤나 물어봄. 싱글톤 패턴에 대해 많이 물어봄.
 MVC 패턴에 대한 이해도 중요한듯
 - Creational patterns
-1) Factory Method
+1) [Factory Method](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_FactoryMethod.md)
 2) Builder
 3) Singleton
 4) Prototype

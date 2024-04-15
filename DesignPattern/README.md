@@ -5,7 +5,7 @@ MVC 패턴에 대한 이해도 중요한듯
 1) [Factory Method](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_FactoryMethod.md)
 2) Builder
 3) Singleton
-4) Prototype
+4) [Prototype](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_prototype.md)
 5) Abstract Factory
 
 - Structural patterns

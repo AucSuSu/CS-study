@@ -4,7 +4,7 @@ MVC 패턴에 대한 이해도 중요한듯
 - Creational patterns
 1) [Factory Method](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_FactoryMethod.md)
 2) Builder
-3) Singleton
+3) [Singleton](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_singleton.md)
 4) [Prototype](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_prototype.md)
 5) Abstract Factory
 

@@ -13,7 +13,7 @@ MVC 패턴에 대한 이해도 중요한듯
 2) Composite
 3) Decorator
 4) Facade
-5) Proxy
+5) [Proxy](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_proxy.md)
 
 - Behavioral patterns
 1) Command

@@ -18,13 +18,14 @@ CS 스터디 시작(2024.02.19~)<br>
 ## 🌳 일정 
 |날짜|content|문수|태우|아림|라엘|우미|태호|
 |------|--------|---|---|---|---|---|------|
-|2023.02.26|운영체제|캐시의 지역성|CPU 스케줄링 / 스케줄러|Context switching|메모리 단편화 / 가상 메모리 / 메모리 관리 전략|세마포어/뮤텍스|멀티스레드/데드락|
-|2023.03.04|운영체제|요구페이징|동기/비동기 차이|PCB / Interrupt|프로세스 동기화|프로세스/스레드|멀티스레드/데드락|
-|2023.03.11|DB|트랜잭션(ACID)|RDBMS, NoSQL|정규화|테이블 설계|인덱스|트랜잭션 격리수준|
-|2023.03.18|네트워크|CORS|세션&쿠키|DNS|JWT|http vs https|GET POST|
-|2023.03.25|네트워크|게이트웨이|TCP UDP|프록시|OSI 7계층|RESTful API|3-way-handshaking|
-|2023.04.08|자료구조|큐|트리|배열|스택|해쉬|힙|
-|2023.04.15|디자인패턴|Adapter|Factory method|Singleton|Prototype|proxy|builder|
+|2024.02.26|운영체제|캐시의 지역성|CPU 스케줄링 / 스케줄러|Context switching|메모리 단편화 / 가상 메모리 / 메모리 관리 전략|세마포어/뮤텍스|멀티스레드/데드락|
+|2024.03.04|운영체제|요구페이징|동기/비동기 차이|PCB / Interrupt|프로세스 동기화|프로세스/스레드|멀티스레드/데드락|
+|2024.03.11|DB|트랜잭션(ACID)|RDBMS, NoSQL|정규화|테이블 설계|인덱스|트랜잭션 격리수준|
+|2024.03.18|네트워크|CORS|세션&쿠키|DNS|JWT|http vs https|GET POST|
+|2024.03.25|네트워크|게이트웨이|TCP UDP|프록시|OSI 7계층|RESTful API|3-way-handshaking|
+|2024.04.08|자료구조|큐|트리|배열|스택|해쉬|힙|
+|2024.04.15|디자인패턴|Adapter|Factory method|Singleton|Prototype|proxy|builder|
+|2024.04.29|디자인패턴|Template Method|Decorator|Iterator|Composite|Observer|Facade|
 
 
 ## :family: 팀원 소개

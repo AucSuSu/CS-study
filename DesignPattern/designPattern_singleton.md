@@ -245,7 +245,7 @@ public enum Singleton {
 
 - 빌 푸 솔루션 방식 
 - 이 Logger 클래스는 로그를 파일에 기록하는 FileLogger 클래스에 의존
-```
+```java
 public class Logger {
     private FileLogger fileLogger;
 
@@ -267,7 +267,7 @@ public class Logger {
     }
 }
 ```
-```
+```java
 public class Client {
     public static void main(String[] args) {
         Logger logger = Logger.getInstance();
@@ -281,7 +281,7 @@ public class Client {
    - Logger 클래스를 수정하여 새로운 로깅 기능을 지원하려면 기존의 파일 로깅 코드를 변경해야 하므로, 유연성이 떨어짐
 
 #### 의존성 주입을 통한 해결 (1) 생성자 주입 Constructor Injection
-```
+```java
 public class Logger {
     private LogWriter logWriter;
 
@@ -309,7 +309,7 @@ public class Logger {
 
 ```
 #### 의존성 주입을 통한 해결 (1) *메서드 주입 Method Injection -> setter 사용 
-```
+```java
 public class Logger {
     private LogWriter logWriter;
 
@@ -338,7 +338,7 @@ public class Logger {
 }
 ```
 
-```
+```java
 public class Client {
     public static void main(String[] args) {
         // 파일에 로그를 기록하는 LogWriter를 생성하여 주입
@@ -352,7 +352,7 @@ public class Client {
 }
 ```
 - 활용 클래스 
-```
+```java
 public abstract class LogWriter {
     public abstract void write(String message);
 }

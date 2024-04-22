@@ -9,7 +9,7 @@ MVC 패턴에 대한 이해도 중요한듯
 5) Abstract Factory
 
 - Structural patterns
-1) Adapter
+1) [Adapter](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_adapter.md)
 2) Composite
 3) Decorator
 4) Facade

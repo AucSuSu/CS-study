@@ -133,7 +133,7 @@ for (const printer of printers) {
 
  ## 참고
 
- (https://blog.naver.com/mycho/221850541665)[https://blog.naver.com/mycho/221850541665]
+ [https://blog.naver.com/mycho/221850541665]
 
  ![adapter](https://github.com/AucSuSu/CS-study/assets/139415941/5bde177e-4e34-4492-b083-e933a8ce50f0)
 

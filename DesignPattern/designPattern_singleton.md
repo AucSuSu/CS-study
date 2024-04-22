@@ -241,7 +241,130 @@ public enum Singleton {
 
 -  테스트의 어려움 :  단위 테스트는 테스트가 서로 독립적이어야 하며 테스트를 어떤 순서로든 실행할 수 있어야 한다. 하지만 싱글톤 패턴은 미리 생성된 하나의 인스턴스를 기반으로 구현하는 패턴이므로 각 테스트마다 '독립적인' 인스턴스를 만들기 어렵다.
 
--  
+## 3. 싱글톤 - 의존성 주입 
+
+- 빌 푸 솔루션 방식 
+- 이 Logger 클래스는 로그를 파일에 기록하는 FileLogger 클래스에 의존
+```
+public class Logger {
+    private FileLogger fileLogger;
+
+    private Logger() {
+        fileLogger = new FileLogger(); // 의존성 주입을 사용하지 않고 직접 생성
+    }
+
+    public static Logger getInstance() {
+        return SingletonHolder.INSTANCE;
+    }
+
+    public void log(String message) {
+        fileLogger.write(message);
+    }
+
+    // 내부 정적 클래스
+    private static class SingletonHolder {
+        private static final Logger INSTANCE = new Logger();
+    }
+}
+```
+```
+public class Client {
+    public static void main(String[] args) {
+        Logger logger = Logger.getInstance();
+        logger.log("Hello, world!");
+    }
+}
+```
+#### 기존 방식의 문제점 
+- 테스트를 위해 실제로 파일에 로그를 기록하는 것이 아닌, 테스트용 메시지를 콘솔에 출력하고자 한다면?
+   - 로그 기록기를 콘솔에 출력하는 것으로 변경하기가 매우 어려움
+   - Logger 클래스를 수정하여 새로운 로깅 기능을 지원하려면 기존의 파일 로깅 코드를 변경해야 하므로, 유연성이 떨어짐
+
+#### 의존성 주입을 통한 해결 (1) 생성자 주입 Constructor Injection
+```
+public class Logger {
+    private LogWriter logWriter;
+
+    private Logger(LogWriter logWriter) {
+        this.logWriter = logWriter;
+    }
+
+    public static Logger getInstance(LogWriter logWriter) {
+        return SingletonHolder.INSTANCE.initialize(logWriter);
+    }
+
+    public void log(String message) {
+        logWriter.write(message);
+    }
+
+    // 내부 정적 클래스
+    private static class SingletonHolder {
+        private static final Logger INSTANCE = new Logger(null);
+        private Logger initialize(LogWriter logWriter) {
+            INSTANCE.logWriter = logWriter;
+            return INSTANCE;
+        }
+    }
+}
+
+```
+#### 의존성 주입을 통한 해결 (1) *메서드 주입 Method Injection -> setter 사용 
+```
+public class Logger {
+    private LogWriter logWriter;
+
+    private Logger() {}
+
+    public static Logger getInstance() {
+        return SingletonHolder.INSTANCE;
+    }
+
+    public void setLogWriter(LogWriter logWriter) {
+        this.logWriter = logWriter;
+    }
+
+    public void log(String message) {
+        if (logWriter != null) {
+            logWriter.write(message);
+        } else {
+            System.out.println("No log writer configured");
+        }
+    }
+
+    // 내부 정적 클래스
+    private static class SingletonHolder {
+        private static final Logger INSTANCE = new Logger();
+    }
+}
+```
+
+```
+public class Client {
+    public static void main(String[] args) {
+        // 파일에 로그를 기록하는 LogWriter를 생성하여 주입
+        Logger logger = Logger.getInstance(new FileLogger());
+        logger.log("Hello, world!");
+
+        // 콘솔에 로그를 출력하는 LogWriter를 생성하여 주입
+        logger.setLogWriter(new ConsoleLogWriter());
+        logger.log("Hello, world!");
+    }
+}
+```
+- 활용 클래스 
+```
+public abstract class LogWriter {
+    public abstract void write(String message);
+}
+
+public class ConsoleLogWriter extends LogWriter {
+    @Override
+    public void write(String message) {
+        System.out.println("[Console] " + message);
+    }
+}
+
+```
 ### 정리
 
 > :baby: : 싱글톤 디자인 패턴은 클래스의 인스턴스를 오직 하나만 생성하고, 어플리케이션 전역에서 접근 가능하게 하는 디자인 패턴입니다. 전역적인 접근과 메모리 절약을 제공한다는 장점이 있지만, 결합도를 증가 시킨다는 점에서 단점이 존재하고, 멀티 스레스 문제를 유의해야합니다.

@@ -18,6 +18,6 @@ MVC 패턴에 대한 이해도 중요한듯
 - Behavioral patterns
 1) Command
 2) Strategy
-3) Iterator
+3) [Iterator](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_iterator.md)
 4) Observer
 5) Template Method 

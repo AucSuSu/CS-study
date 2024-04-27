@@ -122,19 +122,40 @@ public class ItemIterator implements Iterator<String> {
 ### Client에서 사용하기
 
 ```java
+
 public class Main {
     public static void main(String[] args) {
-        List<String> shoppingItems = Arrays.asList("Apple", "Banana", "Milk", "Eggs", "Bread");
 
-        ItemCollection shoppingList = new ShoppingList(shoppingItems);
+        // List 
+        List<String> shoppingItemsList = Arrays.asList("Apple", "Banana", "Milk", "Eggs", "Bread");
+        ItemCollection shoppingList = new ShoppingList(shoppingItemsList);
 
-        Iterator<String> iterator = shoppingList.createIterator();
+        Iterator<String> iterator = shoppingList.createIterator(); // iterator
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
+        // HashSet
+        Set<String> shoppingItemsSet = new HashSet<>(Arrays.asList("Apple", "Banana", "Milk", "Eggs", "Bread"));
+        shoppingList = new ShoppingList(new ArrayList<>(shoppingItemsSet));
+
+        iterator = shoppingList.createIterator(); // 동일 iterator, 동일 방식 
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        // LinkedList
+        LinkedList<String> shoppingItemsLinkedList = new LinkedList<>(Arrays.asList("Apple", "Banana", "Milk", "Eggs", "Bread"));
+        shoppingList = new ShoppingList(shoppingItemsLinkedList);
+
+        iterator = shoppingList.createIterator(); // 동일 iterator, 동일 방식 
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }
 }
+
+
 ```
 
 ### 특징

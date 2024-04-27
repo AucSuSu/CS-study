@@ -10,7 +10,7 @@
 
 - 자바에서 제공하는 자료구조들의 인터페이스
 - 컬렉션 인터페이스를 상속받는 클래스들에 대해 Iterator 인터페이스 사용이 가능
-- ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDhAEy%2FbtradRzasBQ%2FCjKa3OnW5k8tGYrkrqjVJ1%2Fimg.png)
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FDhAEy%2FbtradRzasBQ%2FCjKa3OnW5k8tGYrkrqjVJ1%2Fimg.png)
 
 ### 기존의 반복문은 어떻게 쓰는가
 
@@ -164,7 +164,7 @@ for (Integer element : set) {
 }
 ```
 
-### :check: For-each 반복문은 이터레이터의 단점을 극복하기 위해 나온 강화된 반복문이다.
+### ✔️ For-each 반복문은 이터레이터의 단점을 극복하기 위해 나온 강화된 반복문이다.
 
 - for-each도 내부적으로는 iterator의 구현체임
 

@@ -51,6 +51,8 @@ for (int i = 0; i < elements.length; i++) {
 
 ## 1. 요소
 
+![](https://velog.velcdn.com/images%2Fcham%2Fpost%2F58959069-44eb-40c7-aacb-368f168477c5%2Fimage.png)
+
 ### 집합체 (Aggregate)
 
 ```java

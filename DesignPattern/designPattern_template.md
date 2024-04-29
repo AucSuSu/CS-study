@@ -36,7 +36,7 @@ abstract class AbstractDisplay {
 
   display(): void {
     this.open();
-    for (let i = 0; i < n; i += 1) {
+    for (let i = 0; i < 5; i += 1) {
       this.print();
     }
     this.close();

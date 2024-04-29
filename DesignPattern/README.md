@@ -12,7 +12,7 @@ MVC 패턴에 대한 이해도 중요한듯
 1) [Adapter](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_adapter.md)
 2) [Composite](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_Composite.md)
 3) [Decorator](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_decorator.md)
-4) Facade
+4) [Facade](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_Facade.md)
 5) [Proxy](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_proxy.md)
 
 - Behavioral patterns

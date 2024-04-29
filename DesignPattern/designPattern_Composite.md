@@ -25,18 +25,20 @@
 ![image](https://github.com/AucSuSu/CS-study/assets/64372881/864e1c59-de3f-4a32-9296-c8121fd6b960)
 
 ## Composite 패턴의 목적 및 사용
-- 컴포지트 패턴은 클라이언트가 복잡한 트리 구조를 가진 객체를 단일 객체처럼 쉽게 다룰 수 있도록 함
+- Composite 패턴은 클라이언트가 복잡한 트리 구조를 가진 객체를 단일 객체처럼 쉽게 다룰 수 있도록 함
 - 객체의 추가, 제거 작업을 투명하게 처리 가능
-- 파일 시스템에서 폴더와 파일을 동일한 방식으로 취급 가능.<br>(폴더는 Composite, 파일은 Leaf)
+- 파일 시스템에서 폴더와 파일을 동일한 방식으로 취급 가능.<br>(폴더는 Composite, 파일은 Leaf)<br>
 
-## 컴퍼지트패턴 구현
+## Composite 패턴 구현
 예시를 들어 설명해보겠다.
 
 그림판에 삼각형, 사각형, 동그라미를 만들고 삼각형과 사각형을 그룹화했다고 가정한다.<br>
 이때, 만들어진 도형들을 모두 빨간색으로 색칠하려고 한다.<br>
+
 우리가 채우기 버튼을 누를 때 선택하는 것이 어떤 도형인지, 혹은 그룹인지에 대해 구분하지 않아도 된다. <br>
 그림판에는 도형 하나에 대한 채우기 기능과 그룹에 대한 채우기 기능이 같다.<br>
-> 컴퍼지트 패턴은 전체 도형을 하나의 도형으로 관리할 수 있다는 특징을 갖고 있다.<br>
+
+> Composite 패턴은 전체 도형을 하나의 도형으로 관리할 수 있다는 특징을 갖고 있다.<br>
 
 ### 1. Component
 Component에서는 Leaf와 Composite의 공통이 되는 메소드를 정의한다.<br>
@@ -50,7 +52,7 @@ public interface Shape {
 ```
 
 ### 2. Leaf
-Leaf객체들은 복합체에 포함되는 요소로, Component를 구현한다.
+Leaf 객체는 복합체에 포함되는 요소로, Component를 구현한다.
 
 ```java
 // Triangle.java
@@ -74,8 +76,8 @@ public class Circle implements Shape {
 ```
 
 ### 3. Composite
-Composite객체는 Leaf객체를 포함하고 있고, Component를 구현할 뿐만 아니라<br>
-Leaf그룹에 대해 **add와 remove를 할 수 있는 메소드**를 클라이언트에게 제공한다.
+Composite 객체는 Leaf 객체를 포함하고 있고, Component를 구현할 뿐만 아니라<br>
+Leaf 그룹에 대해 **add와 remove를 할 수 있는 메소드**를 클라이언트에게 제공한다.
 
 ```java
 // Drawing.java

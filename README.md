@@ -26,6 +26,7 @@ CS 스터디 시작(2024.02.19~)<br>
 |2024.04.08|자료구조|큐|트리|배열|스택|해쉬|힙|
 |2024.04.15|디자인패턴|Adapter|Factory method|Singleton|Prototype|proxy|builder|
 |2024.04.29|디자인패턴|Template Method|Decorator|Iterator|Composite|Observer|Facade|
+|2024.05.09|디자인패턴&스프링&리액트|React Hook & lifecycle|Command|Strategy|Abstract Factory|PSA, IoC, AOP, POJO|JPA와 ORM|
 
 
 ## :family: 팀원 소개

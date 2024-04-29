@@ -78,3 +78,6 @@ class ObserverImpl implements Observer {
   - 새로운 형식의 옵저버라도 주제를 변경할 필요 X
   - 주제와 옵저버는 서로 독립적으로 재사용 가능
   - 주제나 옵저버가 변경되어도 서로에게 영향 X
+
+## References
+https://velog.io/@hanna2100/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-2.-%EC%98%B5%EC%A0%80%EB%B2%84-%ED%8C%A8%ED%84%B4-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%98%88%EC%A0%9C-observer-pattern

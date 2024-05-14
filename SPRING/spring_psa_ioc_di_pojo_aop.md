@@ -2,9 +2,87 @@
 > - PSA: 이식 가능한 서비스 추상화
 > - IoC: 제어의 역전
 > - DI: 의존성 주입
-> - POJO: 
+> - POJO: 종속되지 않은 상태로 개발하는 개념
 > - AOP: 관점 지향 프로그래밍
 > - 스프링 빈과 컨테이너
+
+
+# POJO
+: Plain Old Java Object의 줄임말로, **오래된 방식의 간단한 자바 객체**를 뜻한다.
+![image](https://github.com/AucSuSu/CS-study/assets/75782242/d8ecfce5-e624-4c26-8917-7bca81aac1aa)
+
+
+위 이미지는 Spring 삼각형이라는 유명한 이미지로 Spring의 핵심 개념(IoC/DI, AOP, PSA를 통해 POJO 달성 가능)
+
+간단하게 말해서 필드와 Getter, Setter와 같은 기본 기능만을 갖는 기본 객체를 의미
+
+
+➡️ "특정 기술"(Framework)에 **종속된 상태로 개발하지 않는**, 객체지향적인 원리에 충실하면서 환경과 기술에 종속되지 않고, 필요에 따라 재활용될 수 있는 방식으로 설계된 오브젝트. 특정 기술에 대한 종속성으로 객체지향적 설계가 힘들어 코드의 유지보수와 재사용이 불편해 POJO라는 개념이 탄생했다.
+
+
+
+### 1. POJO를 지킨 코드
+```java
+package com.jpasample.service;
+
+public class POJOClass {
+    private String name;
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+
+}
+```
+단순한 getter, setter로 POJO의 개념을 잘 지킴
+
+
+
+### 2. POJO를 무시한 코드
+```java
+public class POJOClass extends UserService{
+
+    private String name;
+    private int age;
+
+    @Override
+    public List<User> findUsers() {
+        return super.findUsers();
+    }
+}
+```
+UserService 클래스의 기능을 사용하기 위해 **extends**를 받은 코드
+
+UserService의 메서드를 사용하기 위해 많은 양의 코드를 리팩토링해야 하며, 코드의 가독성이나 유지보수, 확장 측면에서 **어려움이 있음!**
+
+
+### 3. Spring의 POJO 개념을 지킨 코드
+```java
+public class POJOClass{
+
+    @Autowired
+    UserRepository userRepository;
+    
+    private String name;
+    private int age;
+    
+    public void test(){
+        userRepository.findAll();
+    }
+}
+```
+`@Autowired`로 **의존성 주입**을 하여 **느슨한 결합력**을 갖게 되면서, 직접적으로 **extends, implements를 하지 않고도 해당 클래스의 메소드에 접근** 가능
 
 # IoC
 : Inversion of Control의 줄임말로, **제어의 역전**을 뜻한다.
@@ -92,9 +170,9 @@ public class MyBean{
 - 부가 관점 코드를 핵심 관점 코드에서 분리
 ➡️ 개발자가 **핵심 관점 코드에만 집중**할 수 있도록 해주고, 프로그램의 **변경과 확장에도 유연한 대응 가능**
 
+
 # PSA
 : Portable Service Abstraction의 줄임말로, 이식 가능한 추상화 서비스를 뜻한다.
-
 
 ➡️ 스프링에서 제공하는 다양한 기술들을 추상화해 개발자가 쉽게 사용하는 인터페이스
 
@@ -105,6 +183,8 @@ public class MyBean{
 - DI: 외부에서 객체를 주입받아 사용
 - AOP: 프로그래밍할 때 핵심 관점과 부가 관점을 나누어 개발
 - PSA: 어느 기술을 사용하던 일관된 방식으로 처리하도록
+- POJO: IoC/DI, AOP, PSA로 객체지향적인 프로그래밍을 가능하게 하는 개념
 
 ## References.
-https://shinsunyoung.tistory.com/133
+- https://shinsunyoung.tistory.com/133
+- https://ittrue.tistory.com/211

@@ -3,7 +3,7 @@ IoC, AOP 등의 스프링 프레임워크의 기초와 DI 와 같은 스프링�
 MVC 처리 과정에 대한 질문이 많다.
 JPA를 사용한 경우, n+1 문제에대한 질문이 나올 가능성이 높다.
 
-- PSA, IoC, AOP, POJO(각각에 대한 내용과 도입 이유)
+- [PSA, IoC, AOP, POJO(각각에 대한 내용과 도입 이유)](https://github.com/AucSuSu/CS-study/blob/main/SPRING/spring_psa_ioc_di_pojo_aop.md)
 - Bean(Scope)
 - @Autowired 주입 방법별 차이(Field, Setter, Constructor Injection)
 - ApplicationContext

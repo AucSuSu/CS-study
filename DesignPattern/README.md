@@ -6,7 +6,7 @@ MVC 패턴에 대한 이해도 중요한듯
 2) [Builder](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/Builder.md)
 3) [Singleton](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_singleton.md)
 4) [Prototype](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_prototype.md)
-5) Abstract Factory
+5) [Abstract Factory](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_AbstractFactory.md)
 
 - Structural patterns
 1) [Adapter](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_adapter.md)

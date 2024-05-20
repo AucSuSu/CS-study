@@ -16,7 +16,7 @@ MVC 패턴에 대한 이해도 중요한듯
 5) [Proxy](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_proxy.md)
 
 - Behavioral patterns
-1) Command
+1) [Command](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_commandPatern.md)
 2) [Strategy](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_strategy.md)
 3) [Iterator](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_iterator.md)
 4) [Observer](https://github.com/AucSuSu/CS-study/blob/main/DesignPattern/designPattern_Observer.md)
